@@ -48,7 +48,7 @@ const Sidebar : React.FC<SidebarProps> = ({ children }) => {
                 </Box>
             </div>
             {/* Sidebar navigation! */}
-            <main>    
+            <main className="flex-1 h-full py-2 px-1 pr-2">    
                 {children}
             </main>
         </div>
