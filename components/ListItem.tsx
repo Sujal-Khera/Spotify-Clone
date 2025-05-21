@@ -19,6 +19,7 @@ const ListItem : React.FC<ListenItemProps> = ({image , name , href}) => {
 
     return(
         <button 
+            onClick={onClick}
             className="
             relative
             group
